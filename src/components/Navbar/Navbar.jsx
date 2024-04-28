@@ -3,11 +3,16 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
+      <div className="container">
+        <div className="flex">
+          <div>
+
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </div>
     </nav>
   )
 };
