@@ -7,7 +7,6 @@ const Navbar = () => {
         <div className="flex">
           <div>
 
-
           </div>
           <div>
 
