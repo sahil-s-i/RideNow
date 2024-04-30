@@ -6,10 +6,13 @@ const Navbar = () => {
       <div className="container">
         <div className="flex">
           <div>
-
+            <h1>Navbar</h1>
           </div>
           <div>
-
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
           </div>
         </div>
       </div>
