@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="container">
         <div className="flex justify-between items-center">
           <div>
-            <h1 className="text-xl font-bold">Navbar</h1>
+            <h1 className="text-xl font-bold">Car Rental</h1>
           </div>
           <div>
             <ul className="flex items-center gap-6">
