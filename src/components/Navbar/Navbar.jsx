@@ -2,16 +2,20 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="shadow-sm">
       <div className="container">
-        <div className="flex">
+        <div className="flex justify-between items-center">
           <div>
-            <h1>Navbar</h1>
+            <h1 className="text-xl font-bold">Navbar</h1>
           </div>
           <div>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
+            <ul className="flex items-center gap-6">
+              <li>
+                <a className="inline-block py-4" href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
             </ul>
           </div>
         </div>
