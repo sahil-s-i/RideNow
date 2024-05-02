@@ -1,51 +1,58 @@
 import React from "react";
+import { BiSolidMoon, BiSolidSun } from "react-icons/bi";
 
-const NavLinks = () =>[
+const NavLinks = [
   {
-    id : "1",
-    name : "Home",
-    link : "/#",
+    id: "1",
+    name: "HOME",
+    link: "/#",
   },
   {
-    id : "2",
-    name : "CARS",
-    link : "/#cars",
+    id: "2",
+    name: "CARS",
+    link: "/#cars",
   },
   {
-    id : "3",
-    name : "ABOUT",
-    link : "/#about",
+    id: "3",
+    name: "ABOUT",
+    link: "/#about",
   },
   {
-    id : "4",
-    name : "BOOKING",
-    link : "/#booking",
+    id: "4",
+    name: "BOOKING",
+    link: "/#booking",
   }
+];
 
-]
-
-const Navbar = () => {
+const Navbar = ({theme , setTheme }) => {
   return (
-    <nav className="shadow-sm">
+    <nav className="shadow-md">
       <div className="container">
         <div className="flex justify-between items-center">
           <div>
-            <h1 className="text-xl font-bold">Car Rental</h1>
+            <h1 className="text-3xl font-bold font-serif">Car Rental</h1>
+          </div>
+          <div className="hidden md:block">
+            <ul className="flex items-center gap-8">
+              {
+                NavLinks.map((data) => (
+                  <li className="py-4" key={data.id}>
+                    <a className="py-2 hover:border-b-2 hover:text-primary hover:border-primary transition-colors duration-500 text-lg font-medium" href={data.link}>{data.name}</a>
+                  </li>
+                ))
+              }
+            </ul>
           </div>
           <div>
-            <ul className="flex items-center gap-6">
-              
-              <li>
-                <a className="inline-block py-4" href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">About</a>
-              </li>
-            </ul>
+            {
+              theme === "dark" ? (<BiSolidSun className="text-2xl" />) : (<BiSolidMoon className="text-2xl" />)
+            }
+
           </div>
         </div>
       </div>
     </nav>
+
   )
 };
 
