@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import Navbar from "../src/components/Navbar/Navbar"
 import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
 
 const App = () => {
 
@@ -21,8 +22,9 @@ const App = () => {
   return (
     <div>
       <Navbar theme={theme} setTheme={setTheme} />
+      <Hero/>
     </div>
   )
 };
 
-export default App
+export default App;
