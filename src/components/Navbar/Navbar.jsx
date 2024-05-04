@@ -24,9 +24,9 @@ const NavLinks = [
   }
 ];
 
-const Navbar = ({theme , setTheme }) => {
+const Navbar = ({ theme, setTheme }) => {
   return (
-    <nav className="shadow-md">
+    <nav className="shadow-md bg-white dark:bg-dark dark:text-white duration-300">
       <div className="container">
         <div className="flex justify-between items-center">
           <div>
@@ -45,7 +45,9 @@ const Navbar = ({theme , setTheme }) => {
           </div>
           <div>
             {
-              theme === "dark" ? (<BiSolidSun className="text-2xl" />) : (<BiSolidMoon className="text-2xl" />)
+              theme === "dark" ? (<BiSolidSun onClick={() => setTheme("light")} className="text-2xl" />
+              ) : (
+                <BiSolidMoon onClick={() => setTheme("dark")} className="text-2xl" />)
             }
 
           </div>
