@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
 
-  
+  // Dark Mode Features 
   const [theme, setTheme] = React.useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "light");
 
   const element = document.documentElement;
