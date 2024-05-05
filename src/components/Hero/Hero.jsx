@@ -1,4 +1,5 @@
 import React from "react";
+import carpng from "../../assets/car.png"
 
 const Hero = () => {
     return <div className="dark:bg-black dark:text-white duration-300">
