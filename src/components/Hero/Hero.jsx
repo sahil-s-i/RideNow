@@ -7,7 +7,11 @@ const Hero = () => {
                 <div>
                     <img src={carpng} alt="" />
                 </div>
-                
+                <div>
+                    <p>Effortless</p>
+                    <h1>Car Rental</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, veniam eum reprehenderit accusantium nihil quibusdam incidunt assumenda dolorum!</p>
+                </div>
             </div>
         </div>
     </div>;
