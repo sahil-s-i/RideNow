@@ -12,7 +12,7 @@ const Hero = () => {
                     <p className="text-primary text-2xl font-serif">Effortless</p>
                     <h1 className="text-5xl lg:text-7xl font-semibold font-serif">Car Rental</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    <button className="btn btn-primary text-black px-6 py-2 rounded-md hover:bg-primary/80 ">Get Started</button>
+                    <button className="btn btn-primary text-black px-6 py-2 rounded-md hover:bg-primary/80 duration-300">Get Started</button>
                 </div>
             </div>
         </div>
