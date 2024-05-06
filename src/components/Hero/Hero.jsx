@@ -1,8 +1,8 @@
 import React from "react";
-import carpng from "../../assets/car.jpeg";
+import carpng from "../../assets/car3.jpeg";
 
 const Hero = () => {
-    return <div className="dark:bg-black dark:text-white duration-300 ">
+    return <div className="dark:bg-black dark:text-white duration-300 relative -z-20">
         <div className="container min-h-[620px] flex">
             <div className="grid place-items-center grid-cols-1 sm:grid-cols-2 ">
                 <div className="order-1 sm:order-2">
