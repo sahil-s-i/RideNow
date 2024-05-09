@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import CarPng from "../../assets/car1.png";
 
 const About = () => {
     return (
-        <div>
-            <div className="container">
-                <div className="grid grid-cols-1 sm:grid-cols-2 place-item-center">
+        <div className="dark:bg-dark dark:text-white duration-300 sm:min-h-[600px]">
+            <div className="container ">
+                <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center">
                     <div>
                         <img src={CarPng} alt="car png image" />
                     </div>
