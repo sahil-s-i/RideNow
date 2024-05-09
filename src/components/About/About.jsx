@@ -9,7 +9,7 @@ const About = () => {
                         <img src={CarPng} alt="car png image" />
                     </div>
                     <div>
-                        
+                        <h1 className="text-3xl sm:text-4xl font-bold font-serif">About us</h1>
                     </div>
                 </div>
             </div>
