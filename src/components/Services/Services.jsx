@@ -44,7 +44,9 @@ const Services = () => {
                 <div className="grid gird-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                     {
                         skillsData.map((skill) => (
-                            <div>
+                            <div key={skill.name} data-aos="fade up" data-aos-delay={skill.aosDelay}
+                            className="card text-center"
+                            >
                                 <div>{skill.icon}</div>
                                 <h1>{skill.name}</h1>
                                 <p>{skill.description}</p>
