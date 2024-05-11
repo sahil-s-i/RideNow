@@ -44,7 +44,12 @@ const Services = () => {
                 <div className="grid gird-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                     {
                         skillsData.map((skill) => (
-
+                            <div>
+                                <div>{skill.icon}</div>
+                                <h1>{skill.name}</h1>
+                                <p>{skill.description}</p>
+                                <a href={skill.link}>Learn More</a>
+                            </div>
                         ))
                     }
                 </div>
