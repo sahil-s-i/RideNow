@@ -37,6 +37,11 @@ const CarList = () => {
                                     <div>
                                         <img src={car.image} alt="" />
                                     </div>
+                                    <div>
+                                        <h1>
+                                            {data.name}
+                                        </h1>
+                                    </div>
                                 </div>
                             })
                         }
