@@ -41,6 +41,9 @@ const CarList = () => {
                                         <h1>
                                             {data.name}
                                         </h1>
+                                        <div>
+                                            <p>${data.price}/Day</p>
+                                        </div>
                                     </div>
                                 </div>
                             })
