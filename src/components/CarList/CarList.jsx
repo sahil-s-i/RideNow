@@ -33,7 +33,11 @@ const CarList = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16">
                         {
                             CarListData.map((car) => {
-                                
+                                <div>
+                                    <div>
+                                        <img src={car.image} alt="" />
+                                    </div>
+                                </div>
                             })
                         }
                     </div>
