@@ -39,7 +39,7 @@ const CarList = () => {
                                 return (
                                     <div className="space-y-3 border-2 border-gray-300 hover:border-primary p-3 rounded-xl relative group">
                                         <div className="w-full h-[120px] ">
-                                            <img src={data.image} alt="Car image" />
+                                            <img className="w-full h-[120px] object-contain sm:translate-x-8 group-hover:translate-x-16 duration-700" src={data.image} alt="Car image" />
                                         </div>
                                         <div>
                                             <h1>
