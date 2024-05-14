@@ -36,19 +36,20 @@ const CarList = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16">
                         {
                             CarListData.map((data) => {
-                                return (<div>
-                                    <div>
-                                        <img src={data.image} alt="Car image" />
-                                    </div>
-                                    <div>
-                                        <h1>
-                                            {data.name}
-                                        </h1>
+                                return (
+                                    <div className="space-y-3 border-2 border-gray-300 hover:border-primary p-3 rounded-xl relative group">
+                                        <div className="w-full h-[120px] ">
+                                            <img src={data.image} alt="Car image" />
+                                        </div>
                                         <div>
-                                            <p>${data.price}/Day</p>
+                                            <h1>
+                                                {data.name}
+                                            </h1>
+                                            <div>
+                                                <p>${data.price}/Day</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
                                 )
                             })
                         }
