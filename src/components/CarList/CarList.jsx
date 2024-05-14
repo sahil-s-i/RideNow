@@ -1,5 +1,5 @@
 import React from "react";
-import whiteCar from "../../assets/white-car.png";
+import car1 from "../../assets/car1.png";
 import car2 from "../../assets/car5.png";
 import car3 from "../../assets/car6.png";
 
@@ -8,7 +8,7 @@ const CarListData = [
     {
         name: "BMW UX",
         price: 100,
-        image: whiteCar,
+        image: car1,
         aosDelay: "0",
     },
     {
@@ -35,10 +35,10 @@ const CarList = () => {
                 <div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16">
                         {
-                            CarListData.map((car) => {
-                                <div>
+                            CarListData.map((data) => {
+                                return (<div>
                                     <div>
-                                        <img src={car.image} alt="" />
+                                        <img src={data.image} alt="Car image" />
                                     </div>
                                     <div>
                                         <h1>
@@ -49,6 +49,7 @@ const CarList = () => {
                                         </div>
                                     </div>
                                 </div>
+                                )
                             })
                         }
                     </div>
