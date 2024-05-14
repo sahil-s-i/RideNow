@@ -1,6 +1,7 @@
 import React from "react";
 import whiteCar from "../../assets/white-car.png";
 import car2 from "../../assets/car5.png";
+import car3 from "../../assets/car6.png";
 
 
 const CarListData = [
