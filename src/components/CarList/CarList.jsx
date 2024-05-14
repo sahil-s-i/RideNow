@@ -41,20 +41,23 @@ const CarList = () => {
                                         <div className="w-full h-[120px] ">
                                             <img className="w-full h-[120px] object-contain sm:translate-x-8 group-hover:translate-x-16 duration-700" src={data.image} alt="Car image" />
                                         </div>
-                                        <div>
-                                            <h1>
+                                        <div className="space-y-2">
+                                            <h1 className="text-primary font-semibold ">
                                                 {data.name}
                                             </h1>
-                                            <div>
+                                            <div className="flex justify-between items-center text-xl font-semibold">
                                                 <p>${data.price}/Day</p>
+                                                <a href="#">Details</a>
                                             </div>
                                         </div>
+                                        <p className="text-xl font-semibold absolute top-0 left-3"> 12Km</p>
                                     </div>
                                 )
                             })
                         }
                     </div>
                 </div>
+                
             </div>
         </div>
     )
