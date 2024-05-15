@@ -10,7 +10,11 @@ function Testimonial() {
                     <p data-aos="fade-up" className="text-center sm:px-44">Lorem ipsum dolor, sit amet consectetur adipisicing elit.{" "} </p>
                 </div>
                 {/* card section  */}
-                
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-black dark:text-white">
+                    <div>
+
+                    </div>
+                </div>
             </div>
         </div>
     )
