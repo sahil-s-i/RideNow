@@ -7,7 +7,7 @@ function Testimonial() {
                 {/* header  */}
                 <div className="space-y-4 pb-12">
                     <p className="text-3xl font-semibold text-center sm:text-4xl font-serif">What Our Clients Say About Us</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    <p className="text-center sm:px-44">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
                 </div>
             </div>
         </div>
