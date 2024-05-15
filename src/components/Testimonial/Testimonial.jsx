@@ -6,9 +6,11 @@ function Testimonial() {
             <div className="container">
                 {/* header  */}
                 <div className="space-y-4 pb-12">
-                    <p className="text-3xl font-semibold text-center sm:text-4xl font-serif">What Our Clients Say About Us</p>
-                    <p className="text-center sm:px-44">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    <p data-aos="fade-up" className="text-3xl font-semibold text-center sm:text-4xl font-serif">What Our Clients Say About Us</p>
+                    <p data-aos="fade-up" className="text-center sm:px-44">Lorem ipsum dolor, sit amet consectetur adipisicing elit.{" "} </p>
                 </div>
+                {/* card section  */}
+                
             </div>
         </div>
     )
