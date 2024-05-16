@@ -19,12 +19,6 @@ const TestimonialsData = [
         description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
         aosDelay: "1000",
     },
-    {
-        name: "Sabir",
-        image: "",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-        aosDelay: "1000",
-    },
 ]
 
 function Testimonial() {
@@ -41,8 +35,8 @@ function Testimonial() {
                     {
                         TestimonialsData.map((data) => {
                             return <div key={data.name}>
-                                <div>
-                                    <img src="https://picsum.photos/200" alt="" />
+                                <div className="grid place-items-center">
+                                    <img src="https://picsum.photos/200" className="h-20 w-20 rounded-full" alt="" />
                                 </div>
 
                             </div>;
