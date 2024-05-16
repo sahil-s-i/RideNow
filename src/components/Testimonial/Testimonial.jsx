@@ -1,6 +1,6 @@
 import React from 'react';
 
-const testimonialData = [
+const TestimonialsData = [
     {
         name:"Dilshad",
         image:"",
@@ -39,7 +39,7 @@ function Testimonial() {
                 {/* card section  */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-black dark:text-white">
                     {
-                        testimonialData.map((data)=>{
+                        TestimonialsData.map((data)=>{
 
                         })
                     }
