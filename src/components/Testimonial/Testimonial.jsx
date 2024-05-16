@@ -2,27 +2,27 @@ import React from 'react';
 
 const TestimonialsData = [
     {
-        name:"Dilshad",
-        image:"",
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        name: "Dilshad",
+        image: "",
+        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
         aosDelay: "0",
     },
     {
-        name:"Satya",
-        image:"",
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        name: "Satya",
+        image: "",
+        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
         aosDelay: "300",
     },
     {
-        name:"Sabir",
-        image:"",
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        name: "Sabir",
+        image: "",
+        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
         aosDelay: "1000",
     },
     {
-        name:"Sabir",
-        image:"",
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        name: "Sabir",
+        image: "",
+        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
         aosDelay: "1000",
     },
 ]
@@ -37,10 +37,15 @@ function Testimonial() {
                     <p data-aos="fade-up" className="text-center sm:px-44">Lorem ipsum dolor, sit amet consectetur adipisicing elit.{" "} </p>
                 </div>
                 {/* card section  */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-black dark:text-white">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-black dark:text-white">
                     {
-                        TestimonialsData.map((data)=>{
+                        TestimonialsData.map((data) => {
+                            return <div key={data.name}>
+                                <div>
+                                    <img src="https://picsum.photos/200" alt="" />
+                                </div>
 
+                            </div>;
                         })
                     }
                 </div>
