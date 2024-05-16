@@ -1,5 +1,32 @@
 import React from 'react';
 
+const testimonialData = [
+    {
+        name:"Dilshad",
+        image:"",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        aosDelay: "0",
+    },
+    {
+        name:"Satya",
+        image:"",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        aosDelay: "300",
+    },
+    {
+        name:"Sabir",
+        image:"",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        aosDelay: "1000",
+    },
+    {
+        name:"Sabir",
+        image:"",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        aosDelay: "1000",
+    },
+]
+
 function Testimonial() {
     return (
         <div className="dark:bg-black dark:text-white py-14 sm:pb-24">
@@ -11,9 +38,11 @@ function Testimonial() {
                 </div>
                 {/* card section  */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-black dark:text-white">
-                    <div>
+                    {
+                        testimonialData.map((data)=>{
 
-                    </div>
+                        })
+                    }
                 </div>
             </div>
         </div>
