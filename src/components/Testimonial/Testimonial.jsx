@@ -41,6 +41,8 @@ function Testimonial() {
                                 <div className="text-2xl">
                                     ⭐⭐⭐⭐⭐
                                 </div>
+                                <p>{data.description}</p>
+                                <p>{data.name}</p>
                             </div>
                         })
                     }
