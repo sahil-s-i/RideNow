@@ -38,8 +38,10 @@ function Testimonial() {
                                 <div className="grid place-items-center">
                                     <img src="https://picsum.photos/200" className="h-20 w-20 rounded-full" alt="" />
                                 </div>
-
-                            </div>;
+                                <div className="text-2xl">
+                                    ⭐⭐⭐⭐⭐
+                                </div>
+                            </div>
                         })
                     }
                 </div>
