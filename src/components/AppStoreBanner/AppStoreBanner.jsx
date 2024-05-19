@@ -1,5 +1,5 @@
 import React from 'react';
-
+import pattern from "../../assets/website/pattern.jpeg"
 
 const bannerImg = {
   background: `url(${pattern})`,
