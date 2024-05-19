@@ -1,6 +1,7 @@
 import React from 'react';
-import pattern from "../../assets/website/pattern.jpeg"
-import PlayStoreImg from "../../assets/website/play_store.png"
+import pattern from "../../assets/website/pattern.jpeg";
+import PlayStoreImg from "../../assets/website/play_store.png";
+import AppStoreImg from "../../assets/website/app_store.png";
 
 const bannerImg = {
   background: `url(${pattern})`,
@@ -21,9 +22,12 @@ const AppStoreBanner = () => {
           <div className="space-y-6 max-w-xl mx-auto">
             <h1 data-aos="fade up" className="text-2xl text-center sm:text-4xl font-semibold font-serif">Get Started with our app</h1>
             <p data-aos="fade up" className="text-center sm:px-20">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptas consequatur qui impedit!</p>
-            <div>
+            <div data-aos="fade up" className="flex flex-wrap justify-center items-center gap-4">
               <a href="#">
-                <img src={PlayStoreImg} alt="Play store image" />
+                <img className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]" src={PlayStoreImg} alt="Play store image" />
+              </a>
+              <a href="#">
+                <img className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]" src={AppStoreImg} alt="App store image" />
               </a>
             </div>
           </div>
