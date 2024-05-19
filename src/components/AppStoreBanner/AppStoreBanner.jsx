@@ -12,11 +12,16 @@ const bannerImg = {
 
 const AppStoreBanner = () => {
   return (
-    <div className="container ">
+    <div className="container pb-14 ">
       <div className="text-black py-10 sm:min-h-[400px] sm:grid sm:place-items-center rounded-xl "
         style={bannerImg}
       >
-        <div></div>
+        <div>
+          <div>
+            <h1>Get Started with our app</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptas consequatur qui impedit!</p>
+          </div>
+        </div>
       </div>
 
     </div>
