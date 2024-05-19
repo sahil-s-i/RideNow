@@ -1,14 +1,14 @@
 import React from 'react';
 
-const bannerImg = [
-  background : `url(${pattern})`,
-  backgroundRepeat: "no-repeat",
-  backgroundSize : "cover",
-  backgroundPosition : "center",
-  height : "100%",
-  width : "100%",
 
-];
+const bannerImg = {
+  background: `url(${pattern})`,
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  height: "100%",
+  width: "100%",
+};
 
 const AppStoreBanner = () => {
   return (
