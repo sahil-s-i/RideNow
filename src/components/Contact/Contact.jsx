@@ -10,7 +10,7 @@ const Contact = () => {
                         <p className="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eligendi fugit eveniet temporibus reiciendis.</p>
                     </div>
                     <div>
-                        <a href="#" className="inline-block font-semibold py-2 px-6 bg-primary text-white rounded-lg tracking-wider uppercase">
+                        <a href="#" className="inline-block font-semibold py-2 px-6 bg-primary text-white rounded-lg tracking-wider uppercase hover:bg-primary/80 duration-300">
                             Contact
                         </a>
                     </div>
