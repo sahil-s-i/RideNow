@@ -9,6 +9,7 @@ import Services from "./components/Services/Services";
 import CarList from "./components/CarList/CarList";
 import Testimonial from "./components/Testimonial/Testimonial";
 import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
 
@@ -38,15 +39,16 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      <Navbar theme={theme} setTheme={setTheme} />
+    <div className="bg-white dark:bg-black dark:text-white">
+      < Navbar theme={theme} setTheme={setTheme} />
       <Hero theme={theme} />
       <About />
       <Services />
       <CarList />
       <Testimonial />
       <AppStoreBanner />
-    </div>
+      <Contact />
+    </div >
   )
 };
 
