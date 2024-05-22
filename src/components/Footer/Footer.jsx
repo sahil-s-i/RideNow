@@ -11,11 +11,11 @@ const Footer = () => {
                         <h1 className="text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3">Car Rental</h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt corrupti hic dolorum ex?</p>
                         <br />
-                        <div>
+                        <div className="flex items-center gap-3">
                             <FaLocationArrow />
                             <p>Noida, Uttar Pradesh</p>
                         </div>
-                        <div>
+                        <div className="flex items-center gap-3">
                             <FaMobileAlt />
                             <p>+91 123456789</p>
                         </div>
