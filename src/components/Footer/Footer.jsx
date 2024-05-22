@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLocationArrow } from 'react-icons/fa'
+import { FaLocationArrow, FaMobileAlt } from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -13,7 +13,11 @@ const Footer = () => {
                         <br />
                         <div>
                             <FaLocationArrow />
-                            <p>Noida , Uttar Pradesh</p>
+                            <p>Noida, Uttar Pradesh</p>
+                        </div>
+                        <div>
+                            <FaMobileAlt />
+                            <p>+91 123456789</p>
                         </div>
                     </div>
                 </div>
