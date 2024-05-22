@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaLocationArrow } from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -10,6 +11,10 @@ const Footer = () => {
                         <h1 className="text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3">Car Rental</h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt corrupti hic dolorum ex?</p>
                         <br />
+                        <div>
+                            <FaLocationArrow />
+                            <p>Noida , Uttar Pradesh</p>
+                        </div>
                     </div>
                 </div>
             </div>
