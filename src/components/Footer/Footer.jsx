@@ -19,6 +19,10 @@ const Footer = () => {
                             <FaMobileAlt />
                             <p>+91 123456789</p>
                         </div>
+                        {/* Social Handles  */}
+                        <div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
