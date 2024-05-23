@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLocationArrow, FaMobileAlt } from 'react-icons/fa'
+import { FaInstagram, FaLocationArrow, FaMobileAlt } from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -21,7 +21,9 @@ const Footer = () => {
                         </div>
                         {/* Social Handles  */}
                         <div>
-                            
+                            <a href="#">
+                                <FaInstagram />
+                            </a>
                         </div>
                     </div>
                 </div>
