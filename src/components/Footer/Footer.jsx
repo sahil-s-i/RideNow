@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaInstagram, FaLocationArrow, FaMobileAlt } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaLocationArrow, FaMobileAlt } from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -23,6 +23,9 @@ const Footer = () => {
                         <div>
                             <a href="#">
                                 <FaInstagram className="text-3xl hover:text-primary duration-300"/>
+                            </a>
+                            <a href="#">
+                                <FaFacebook className="text-3xl hover:text-primary duration-300"/>
                             </a>
                         </div>
                     </div>
