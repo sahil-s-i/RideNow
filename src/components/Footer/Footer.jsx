@@ -22,7 +22,7 @@ const Footer = () => {
                         {/* Social Handles  */}
                         <div>
                             <a href="#">
-                                <FaInstagram />
+                                <FaInstagram className="text-3xl hover:text-primary duration-300"/>
                             </a>
                         </div>
                     </div>
