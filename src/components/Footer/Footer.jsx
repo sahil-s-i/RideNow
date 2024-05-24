@@ -34,7 +34,12 @@ const Footer = () => {
                     </div>
                     {/* NavLinks  */}
                     <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
-
+                        <div>
+                            <div>
+                                <h1>Important Links</h1>
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
