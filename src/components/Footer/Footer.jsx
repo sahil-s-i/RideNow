@@ -1,5 +1,11 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaLocationArrow, FaMobileAlt } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaLinkedin, FaLocationArrow, FaMobileAlt } from 'react-icons/fa';
+
+const FooterLinks = [
+    {
+        
+    }
+]
 
 const Footer = () => {
     return (
