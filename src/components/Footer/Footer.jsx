@@ -32,6 +32,10 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
+                    {/* NavLinks  */}
+                    <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
+
+                    </div>
                 </div>
             </div>
         </div>
