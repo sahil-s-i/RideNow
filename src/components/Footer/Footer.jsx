@@ -37,7 +37,15 @@ const Footer = () => {
                         <div>
                             <div>
                                 <h1>Important Links</h1>
-                                
+                                <ul>
+                                    {
+                                        FooterLinks.map((data) => {
+                                            return (
+                                                <div></div>
+                                            )
+                                        })
+                                    }
+                                </ul>
                             </div>
                         </div>
                     </div>
