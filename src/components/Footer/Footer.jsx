@@ -56,7 +56,7 @@ const Footer = () => {
                         <div>
                             <div>
                                 <h1 className="text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3">Important Links</h1>
-                                <ul>
+                                <ul className="flex flex-col gap-3">
                                     {
                                         FooterLinks.map((data) => {
                                             return (
