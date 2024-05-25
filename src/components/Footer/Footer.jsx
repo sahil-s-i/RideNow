@@ -60,7 +60,9 @@ const Footer = () => {
                                     {
                                         FooterLinks.map((data) => {
                                             return (
-                                                <div></div>
+                                                <li>
+                                                    <a href={data.link}>{data.title}</a>
+                                                </li>
                                             )
                                         })
                                     }
