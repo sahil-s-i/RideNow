@@ -55,12 +55,13 @@ const Footer = () => {
                     <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
                         <div>
                             <div>
-                                <h1>Important Links</h1>
+                                <h1 className="text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3">Important Links</h1>
                                 <ul>
                                     {
                                         FooterLinks.map((data) => {
                                             return (
                                                 <li key={data.title} className="cursor-pointer hover:text-primary duration-300">
+                                                    <span>&#11162;</span>
                                                     <a href={data.link}>{data.title}</a>
                                                 </li>
                                             )
