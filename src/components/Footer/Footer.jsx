@@ -3,9 +3,21 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaLocationArrow, FaMobileAlt } fro
 
 const FooterLinks = [
     {
-        
-        
-    }
+        title: "Home",
+        link: "/#",
+    },
+    {
+        title: "About",
+        link: "/about",
+    },
+    {
+        title: "Contact",
+        link: "/contact",
+    },
+    {
+        title: "Blog",
+        link: "/blog",
+    },
 ]
 
 const Footer = () => {
