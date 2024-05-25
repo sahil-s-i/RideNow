@@ -60,7 +60,7 @@ const Footer = () => {
                                     {
                                         FooterLinks.map((data) => {
                                             return (
-                                                <li>
+                                                <li key={data.title} className="cursor-pointer hover:text-primary duration-300">
                                                     <a href={data.link}>{data.title}</a>
                                                 </li>
                                             )
