@@ -27,7 +27,7 @@ const Footer = () => {
                 <div className="grid grid-cols-3 py-5">
                     {/* company details  */}
                     <div className="py-8 px-4">
-                        <h1 className="text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3">Car Rental</h1>
+                        <h1 className="text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3 gap-3 flex items-center">Car Rental</h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt corrupti hic dolorum ex?</p>
                         <br />
                         <div className="flex items-center gap-3">
@@ -55,8 +55,8 @@ const Footer = () => {
                     <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
                         {/* first col  */}
                         <div>
-                            <div>
-                                <h1 className="text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3">Important Links</h1>
+                            <div className="py-8 px-4">
+                                <h1 className="text-xl font-bold sm:text-left text-justify mb-3">Important Links</h1>
                                 <ul className="flex flex-col gap-3">
                                     {
                                         FooterLinks.map((data) => {
@@ -73,8 +73,8 @@ const Footer = () => {
                         </div>
                         {/* Second col  */}
                         <div>
-                            <div>
-                                <h1 className="text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3">Important Links</h1>
+                            <div className="py-8 px-4">
+                                <h1 className="text-xl font-bold sm:text-left text-justify mb-3">Important Links</h1>
                                 <ul className="flex flex-col gap-3">
                                     {
                                         FooterLinks.map((data) => {
@@ -91,8 +91,8 @@ const Footer = () => {
                         </div>
                         {/* Third col  */}
                         <div>
-                            <div>
-                                <h1 className="text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3">Important Links</h1>
+                            <div className="py-8 px-4">
+                                <h1 className="text-xl font-bold sm:text-left text-justify mb-3">Important Links</h1>
                                 <ul className="flex flex-col gap-3">
                                     {
                                         FooterLinks.map((data) => {
