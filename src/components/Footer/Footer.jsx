@@ -89,6 +89,24 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
+                        {/* Third col  */}
+                        <div>
+                            <div>
+                                <h1 className="text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3">Important Links</h1>
+                                <ul className="flex flex-col gap-3">
+                                    {
+                                        FooterLinks.map((data) => {
+                                            return (
+                                                <li key={data.title} className="cursor-pointer hover:text-primary duration-300">
+                                                    <span className="mr-2">&#11162;</span>
+                                                    <a href={data.link}>{data.title}</a>
+                                                </li>
+                                            )
+                                        })
+                                    }
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
