@@ -54,6 +54,7 @@ const Navbar = ({ theme, setTheme }) => {
           </div>
         </div>
       </div>
+      <ResponsiveMenu />
     </nav>
 
   )
