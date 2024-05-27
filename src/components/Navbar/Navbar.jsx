@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BiSolidMoon, BiSolidSun } from "react-icons/bi";
 import ResponsiveMenu from "./ResponsiveMenu.jsx";
 
@@ -26,6 +26,7 @@ const NavLinks = [
 ];
 
 const Navbar = ({ theme, setTheme }) => {
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <nav className="shadow-md bg-white dark:bg-dark dark:text-white duration-300 relative z-40">
       <div className="container py-2 md:py-0">
