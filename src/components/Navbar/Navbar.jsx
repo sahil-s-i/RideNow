@@ -1,5 +1,6 @@
 import React from "react";
 import { BiSolidMoon, BiSolidSun } from "react-icons/bi";
+import ResponsiveMenu from "./ResponsiveMenu.jsx";
 
 const NavLinks = [
   {
@@ -27,7 +28,7 @@ const NavLinks = [
 const Navbar = ({ theme, setTheme }) => {
   return (
     <nav className="shadow-md bg-white dark:bg-dark dark:text-white duration-300 relative z-40">
-      <div className="container">
+      <div className="container py-2 md:py-0">
         <div className="flex justify-between items-center">
           <div>
             <h1 className="text-3xl font-bold font-serif">Car Rental</h1>
