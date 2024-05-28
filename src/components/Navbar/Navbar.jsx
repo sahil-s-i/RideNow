@@ -27,6 +27,10 @@ const NavLinks = [
 
 const Navbar = ({ theme, setTheme }) => {
   const [showMenu, setShowMenu] = useState(false);
+
+  const togglemenu = () => {
+    setShowMenu(!showMenu);
+  }
   return (
     <nav className="shadow-md bg-white dark:bg-dark dark:text-white duration-300 relative z-40">
       <div className="container py-2 md:py-0">
