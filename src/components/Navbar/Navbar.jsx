@@ -59,7 +59,7 @@ const Navbar = ({ theme, setTheme }) => {
           </div>
         </div>
       </div>
-      <ResponsiveMenu />
+      <ResponsiveMenu showMenu={showMenu} togglemenu = {togglemenu} />
     </nav>
 
   )
