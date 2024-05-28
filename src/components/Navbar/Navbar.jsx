@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BiSolidMoon, BiSolidSun } from "react-icons/bi";
 import ResponsiveMenu from "./ResponsiveMenu.jsx";
+import { HiMenuAlt1 } from "react-icons/hi";
 
 const NavLinks = [
   {
@@ -49,6 +50,7 @@ const Navbar = ({ theme, setTheme }) => {
               }
             </ul>
           </div>
+          {/* Dark Mode Icons  */}
           <div>
             {
               theme === "dark" ? (<BiSolidSun onClick={() => setTheme("light")} className="text-2xl" />
@@ -57,9 +59,17 @@ const Navbar = ({ theme, setTheme }) => {
             }
 
           </div>
+          {/* Mobile Hamburger Menu  */}
+          {
+            showMenu ? (
+              <HiMenuAlt1 />
+            ) : (
+              <HiMenuAlt3 onClick={togglemenu} />
+            )
+          }
         </div>
       </div>
-      <ResponsiveMenu showMenu={showMenu} togglemenu = {togglemenu} />
+      <ResponsiveMenu showMenu={showMenu} />
     </nav>
 
   )
