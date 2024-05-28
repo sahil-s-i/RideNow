@@ -62,9 +62,17 @@ const Navbar = ({ theme, setTheme }) => {
           {/* Mobile Hamburger Menu  */}
           {
             showMenu ? (
-              <HiMenuAlt1 />
+              <HiMenuAlt1
+                onClick={togglemenu}
+                size={30}
+                className="cursor-pointer transition-all"
+              />
             ) : (
-              <HiMenuAlt3 onClick={togglemenu} />
+              <HiMenuAlt3
+                onClick={togglemenu}
+                size={30}
+                className="cursor-pointer transition-all"
+              />
             )
           }
         </div>
