@@ -5,7 +5,10 @@ const ResponsiveMenu = ({
 }) => {
   return (
     <div>
-      <div>
+      <div className="card">
+        <div className="flex items-center justify-start gap-3">
+
+        </div>
 
       </div>
     </div>
