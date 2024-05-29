@@ -11,6 +11,7 @@ const ResponsiveMenu = ({
           <FaUserCircle size={50} />
           <div>
             <h1>Hello User</h1>
+            <h1>Preminum user</h1>
           </div>
         </div>
 
