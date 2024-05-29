@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaUserCircle } from 'react-icons/fa'
 
 const ResponsiveMenu = ({
   showMenu
@@ -7,7 +8,10 @@ const ResponsiveMenu = ({
     <div>
       <div className="card">
         <div className="flex items-center justify-start gap-3">
-
+          <FaUserCircle size={50} />
+          <div>
+            
+          </div>
         </div>
 
       </div>
