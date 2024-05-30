@@ -5,7 +5,7 @@ const ResponsiveMenu = ({
   showMenu
 }) => {
   return (
-    <div>
+    <div className="fixed top-0 z-50">
       <div className="card">
         <div className="flex items-center justify-start gap-3">
           <FaUserCircle size={50} />
