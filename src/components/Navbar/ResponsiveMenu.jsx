@@ -5,7 +5,7 @@ const ResponsiveMenu = ({
   showMenu
 }) => {
   return (
-    <div className={`fixed top-0 z-50 bg-white dark:bg-gray-900 h-screen w-[75%] md:hidden rounded-r-xl shadow-md`}>
+    <div className={`${showMenu ? "left-0" : "-left-full"} fixed top-0 z-50 bg-white dark:bg-gray-900 h-screen w-[75%] md:hidden rounded-r-xl shadow-md flex-col justify-between px-8`}>
       <div className="card">
         <div className="flex items-center justify-start gap-3">
           <FaUserCircle size={50} />
