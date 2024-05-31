@@ -17,7 +17,7 @@ const ResponsiveMenu = ({
         </div>
         {/* Links  */}
         <nav>
-          <ul>
+          <ul className="space-y-4 text-xl">
             {
               NavLinks.map((data) => {
                 <li>
