@@ -19,7 +19,9 @@ const ResponsiveMenu = ({
           <ul>
             {
               NavLinks.map((data)=>{
-                
+                <li>
+                  <a href="#">{data.name}</a>
+                </li>
               })
             }
           </ul>
