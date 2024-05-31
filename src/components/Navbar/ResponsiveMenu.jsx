@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaUserCircle } from 'react-icons/fa'
+import { FaUserCircle } from 'react-icons/fa';
+import { NavLinks } from './Navbar';
 
 const ResponsiveMenu = ({
   showMenu
@@ -18,7 +19,7 @@ const ResponsiveMenu = ({
         <nav>
           <ul>
             {
-              NavLinks.map((data)=>{
+              NavLinks.map((data) => {
                 <li>
                   <a href="#">{data.name}</a>
                 </li>
