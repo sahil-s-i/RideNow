@@ -3,7 +3,7 @@ import { BiSolidMoon, BiSolidSun } from "react-icons/bi";
 import ResponsiveMenu from "./ResponsiveMenu.jsx";
 import { HiMenuAlt1 } from "react-icons/hi";
 
-const NavLinks = [
+export const NavLinks = [
   {
     id: "1",
     name: "HOME",
