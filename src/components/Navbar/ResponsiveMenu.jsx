@@ -14,7 +14,16 @@ const ResponsiveMenu = ({
             <h1>Preminum user</h1>
           </div>
         </div>
-
+        {/* Links  */}
+        <nav>
+          <ul>
+            {
+              NavLinks.map((data)=>{
+                
+              })
+            }
+          </ul>
+        </nav>
       </div>
     </div>
   )
