@@ -28,6 +28,8 @@ const ResponsiveMenu = ({
           </ul>
         </nav>
       </div>
+      {/* Footer  */}
+      <div></div>
     </div>
   )
 }
