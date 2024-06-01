@@ -50,31 +50,34 @@ const Navbar = ({ theme, setTheme }) => {
               }
             </ul>
           </div>
-          {/* Dark Mode Icons  */}
           <div>
-            {
-              theme === "dark" ? (<BiSolidSun onClick={() => setTheme("light")} className="text-2xl" />
-              ) : (
-                <BiSolidMoon onClick={() => setTheme("dark")} className="text-2xl" />)
-            }
+            {/* Dark Mode Icons  */}
+            <div>
+              {
+                theme === "dark" ? (<BiSolidSun onClick={() => setTheme("light")} className="text-2xl" />
+                ) : (
+                  <BiSolidMoon onClick={() => setTheme("dark")} className="text-2xl" />)
+              }
 
+            </div>
+            {/* Mobile Hamburger Menu  */}
+            {
+              showMenu ? (
+                <HiMenuAlt1
+                  onClick={togglemenu}
+                  size={30}
+                  className="cursor-pointer transition-all"
+                />
+              ) : (
+                <HiMenuAlt3
+                  onClick={togglemenu}
+                  size={30}
+                  className="cursor-pointer transition-all"
+                />
+              )
+            }
           </div>
-          {/* Mobile Hamburger Menu  */}
-          {
-            showMenu ? (
-              <HiMenuAlt1
-                onClick={togglemenu}
-                size={30}
-                className="cursor-pointer transition-all"
-              />
-            ) : (
-              <HiMenuAlt3
-                onClick={togglemenu}
-                size={30}
-                className="cursor-pointer transition-all"
-              />
-            )
-          }
+
         </div>
       </div>
       <ResponsiveMenu showMenu={showMenu} />
