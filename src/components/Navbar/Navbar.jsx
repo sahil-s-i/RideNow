@@ -50,7 +50,7 @@ const Navbar = ({ theme, setTheme }) => {
               }
             </ul>
           </div>
-          <div>
+          <div className="flex items-center gap-4">
             {/* Dark Mode Icons  */}
             <div>
               {
