@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BiSolidMoon, BiSolidSun } from "react-icons/bi";
 import ResponsiveMenu from "./ResponsiveMenu.jsx";
-import { HiMenuAlt1 } from "react-icons/hi";
+import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
 
 export const NavLinks = [
   {
