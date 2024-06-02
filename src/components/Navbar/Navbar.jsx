@@ -48,19 +48,20 @@ const Navbar = ({ theme, setTheme }) => {
                   </li>
                 ))
               }
+              {/* Dark Mode Icons  */}
+              <div>
+                {
+                  theme === "dark" ? (<BiSolidSun onClick={() => setTheme("light")} className="text-2xl" />
+                  ) : (
+                    <BiSolidMoon onClick={() => setTheme("dark")} className="text-2xl" />)
+                }
+
+              </div>
+
             </ul>
           </div>
           <div className="flex items-center gap-4 md:hidden">
-            {/* Dark Mode Icons  */}
-            <div>
-              {
-                theme === "dark" ? (<BiSolidSun onClick={() => setTheme("light")} className="text-2xl" />
-                ) : (
-                  <BiSolidMoon onClick={() => setTheme("dark")} className="text-2xl" />)
-              }
-
-            </div>
-
+            
             {/* Mobile Hamburger Menu  */}
             {
               showMenu ? (
