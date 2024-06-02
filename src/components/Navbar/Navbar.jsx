@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BiSolidMoon, BiSolidSun } from "react-icons/bi";
 import ResponsiveMenu from "./ResponsiveMenu.jsx";
-import { HiMenuAlt1, HiMenuAlt3  } from "react-icons/hi";
+import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
 
 export const NavLinks = [
   {
@@ -50,7 +50,7 @@ const Navbar = ({ theme, setTheme }) => {
               }
             </ul>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 md:hidden">
             {/* Dark Mode Icons  */}
             <div>
               {
@@ -60,6 +60,7 @@ const Navbar = ({ theme, setTheme }) => {
               }
 
             </div>
+
             {/* Mobile Hamburger Menu  */}
             {
               showMenu ? (
