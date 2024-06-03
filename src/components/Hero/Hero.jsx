@@ -12,7 +12,7 @@ const Hero = ({ theme }) => {
                 <div className="order-2 sm:order-1 space-y-5 sm:pr-32">
                     <p data-aos="fade-up" className="text-primary text-2xl font-serif">Effortless</p>
                     <h1 data-aos="fade-up" data-aos-duration="600" className="text-5xl lg:text-7xl font-semibold font-serif">Car Rental</h1>
-                    <p data-aos="fade-up" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis dicta officia similique est tenetur quos nostrum quae.</p>
+                    <p data-aos="fade-up" data-aos-duration="1000">Discover the freedom of the open road with our top-notch car rental services. Whether you're planning a weekend getaway, a business trip, or a family vacation, we have the perfect vehicle to suit your needs.</p>
                     <button data-aos="fade-up" data-aos-duration="1500" className="btn bg-primary text-black px-6 py-2 rounded-md duration-300 hover:bg-primary/80 ">Get Started</button>
                 </div>
             </div>
