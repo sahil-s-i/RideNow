@@ -11,7 +11,7 @@ const About = () => {
                     </div>
                     <div className="space-y-5 sm:p-16 pb-6">
                         <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold font-serif">About us</h1>
-                        <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam commodi neque vero quo!</p>
+                        <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam commodi neque !</p>
                         <p data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, animi!</p>
                         <button data-aos="fade-up" className="button-outline">Get Started</button>
                     </div>
