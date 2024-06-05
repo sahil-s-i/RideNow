@@ -11,7 +11,7 @@ const skillsData = [
             <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
         ),
         link: "#",
-        description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, magnam?",
+        description: "Get the best rates on all our vehicles, ensuring you enjoy both quality and affordability with every rental.",
         aosDisplay: "0",
     },
     {
