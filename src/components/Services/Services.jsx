@@ -29,7 +29,7 @@ const skillsData = [
             <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
         ),
         link: "#",
-        description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, magnam?",
+        description: "Our team of experienced drivers ensures a smooth and safe journey, providing you with peace of mind on the road.",
         aosDisplay: "1000",
     },
 ]
