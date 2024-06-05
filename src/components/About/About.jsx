@@ -11,8 +11,8 @@ const About = () => {
                     </div>
                     <div className="space-y-5 sm:p-16 pb-6">
                         <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold font-serif">About us</h1>
-                        <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam commodi neque vero quo!</p>
-                        <p data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, animi!</p>
+                        <p data-aos="fade-up">Welcome to Car Rental Website, your trusted partner in reliable and affordable car rentals. With years of experience in the industry, we pride ourselves on offering top-notch service and a diverse fleet of vehicles to meet your every need.</p>
+                        <p data-aos="fade-up">Our mission is to provide you with a seamless and enjoyable car rental experience. Whether you're traveling for business or leisure, we have the perfect car for you. Our team is dedicated to ensuring your satisfaction, with 24/7 support and convenient locations across the city.</p>
                         <button data-aos="fade-up" className="button-outline">Get Started</button>
                     </div>
                 </div>
