@@ -20,7 +20,7 @@ const skillsData = [
             <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
         ),
         link: "#",
-        description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, magnam?",
+        description: " Experience quick and secure car rentals with our streamlined process and top-notch safety measures.",
         aosDisplay: "500",
     },
     {
