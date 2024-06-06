@@ -22,6 +22,7 @@ const CarListData = [
         price: 100,
         image: car3,
         aosDelay: "1000",
+        
     },
 ]
 const CarList = () => {
