@@ -10,18 +10,21 @@ const CarListData = [
         price: 100,
         image: car1,
         aosDelay: "0",
+        km: 12,
     },
     {
         name: "KIA UX",
         price: 140,
         image: car2,
         aosDelay: "500",
+        km: 20,
     },
     {
-        name: "BMW UX",
+        name: "BMW",
         price: 100,
         image: car3,
         aosDelay: "1000",
+        km: 15,
     },
 ]
 const CarList = () => {
