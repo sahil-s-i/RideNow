@@ -28,7 +28,7 @@ function Testimonial() {
                 {/* header  */}
                 <div className="space-y-4 pb-12">
                     <p data-aos="fade-up" className="text-3xl font-semibold text-center sm:text-4xl font-serif">What Our Clients Say About Us</p>
-                    <p data-aos="fade-up" className="text-center sm:px-44">Lorem ipsum dolor, sit amet consectetur adipisicing elit.{" "} </p>
+                    <p data-aos="fade-up" className="text-center sm:px-44">Our customers love our service and quality. Read their testimonials to see why they choose us for their car rental needs.{" "} </p>
                 </div>
                 {/* card section  */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-black dark:text-white">
