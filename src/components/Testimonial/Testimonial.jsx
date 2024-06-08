@@ -1,6 +1,7 @@
 import React from 'react';
 import person1 from "../../assets/Testimonial-images/person1.jpg";
 import person2 from "../../assets/Testimonial-images/person2.jpg";
+import person3 from "../../assets/Testimonial-images/person3.jpg";
 
 const TestimonialsData = [
     {
@@ -17,7 +18,7 @@ const TestimonialsData = [
     },
     {
         name: "Sabir",
-        image: "",
+        image: person3,
         description: "Excellent service and a great selection of vehicles. I highly recommend them for anyone in need of a reliable rental car.",
         aosDelay: "1000",
     },
