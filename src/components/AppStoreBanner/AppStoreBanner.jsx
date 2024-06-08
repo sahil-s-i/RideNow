@@ -21,7 +21,7 @@ const AppStoreBanner = () => {
         <div>
           <div className="space-y-6 max-w-xl mx-auto">
             <h1 data-aos="fade up" className="text-2xl text-center sm:text-4xl font-semibold font-serif">Get Started with our app</h1>
-            <p data-aos="fade up" className="text-center sm:px-20">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptas consequatur qui impedit!</p>
+            <p data-aos="fade up" className="text-center sm:px-20">Discover the convenience of renting a car with just a few taps. Download our app to easily browse, book, and manage your rentals on the go!</p>
             <div data-aos="fade up" className="flex flex-wrap justify-center items-center gap-4">
               <a href="#">
                 <img className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]" src={PlayStoreImg} alt="Play store image" />
