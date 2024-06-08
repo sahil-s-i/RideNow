@@ -1,22 +1,23 @@
 import React from 'react';
 import person1 from "../../assets/Testimonial-images/person1.jpg";
+import person2 from "../../assets/Testimonial-images/person2.jpg";
 
 const TestimonialsData = [
     {
         name: "Dilshad",
-        image : person1,
+        image: person1,
         description: "The rental process was smooth and hassle-free. The car was in excellent condition and the customer service was top-notch.",
         aosDelay: "0",
     },
     {
         name: "Satya",
-        image : "",
+        image: person2,
         description: "I had a fantastic experience with this car rental service. The staff was friendly and helpful, and the prices were very reasonable.",
         aosDelay: "300",
     },
     {
         name: "Sabir",
-        image : "",
+        image: "",
         description: "Excellent service and a great selection of vehicles. I highly recommend them for anyone in need of a reliable rental car.",
         aosDelay: "1000",
     },
