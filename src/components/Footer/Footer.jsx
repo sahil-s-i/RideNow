@@ -28,7 +28,7 @@ const Footer = () => {
                     {/* company details  */}
                     <div className="py-8 px-4">
                         <h1 className="text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3 gap-3 flex items-center">Car Rental</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt corrupti hic dolorum ex?</p>
+                        <p>We offer a wide range of vehicles to suit all your needs, providing reliable and affordable car rental services with exceptional customer care.</p>
                         <br />
                         <div className="flex items-center gap-3">
                             <FaLocationArrow />
