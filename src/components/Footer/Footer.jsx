@@ -4,21 +4,41 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaLocationArrow, FaMobileAlt } fro
 const FooterLinks = [
     {
         title: "Home",
-        link: "/#",
+        link: "/",
     },
     {
-        title: "About",
+        title: "About Us",
         link: "/about",
     },
     {
-        title: "Contact",
+        title: "Services",
+        link: "/services",
+    },
+    {
+        title: "Contact Us",
         link: "/contact",
+    },
+    {
+        title: "FAQs",
+        link: "/faqs",
+    },
+    {
+        title: "Terms & Conditions",
+        link: "/terms",
+    },
+    {
+        title: "Privacy Policy",
+        link: "/privacy",
     },
     {
         title: "Blog",
         link: "/blog",
     },
-]
+    {
+        title: "Careers",
+        link: "/careers",
+    },
+];
 
 const Footer = () => {
     return (
