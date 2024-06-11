@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { FaFacebook, FaInstagram, FaLinkedin, FaLocationArrow, FaMobileAlt } from 'react-icons/fa';
 
 const FooterLinks = [
@@ -44,7 +44,7 @@ const Footer = () => {
     return (
         <div className="bg-gray-100 dark:bg-dark mt-14 rounded-t-3xl">
             <div className="container">
-                <div className="grid grid-cols-3 py-5">
+                <div className="grid grid-cols-1 sm:grid-cols-3 py-5">
                     {/* company details  */}
                     <div className="py-8 px-4">
                         <h1 className="text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3 gap-3 flex items-center">Car Rental</h1>
@@ -60,13 +60,13 @@ const Footer = () => {
                         </div>
                         {/* Social Handles  */}
                         <div className="flex items-center gap-3 mt-6">
-                            <a href="#">
+                            <a href="https://instagram.com">
                                 <FaInstagram className="text-3xl hover:text-primary duration-300" />
                             </a>
-                            <a href="#">
+                            <a href="https://facebook.com">
                                 <FaFacebook className="text-3xl hover:text-primary duration-300" />
                             </a>
-                            <a href="#">
+                            <a href="https://linkedin.com">
                                 <FaLinkedin className="text-3xl hover:text-primary duration-300" />
                             </a>
                         </div>
@@ -76,54 +76,42 @@ const Footer = () => {
                         {/* first col  */}
                         <div>
                             <div className="py-8 px-4">
-                                <h1 className="text-xl font-bold sm:text-left text-justify mb-3">Important Links</h1>
+                                <h1 className="text-xl font-bold sm:text-left text-justify mb-3">Quick Links</h1>
                                 <ul className="flex flex-col gap-3">
-                                    {
-                                        FooterLinks.map((data) => {
-                                            return (
-                                                <li key={data.title} className="cursor-pointer hover:text-primary duration-300">
-                                                    <span className="mr-2">&#11162;</span>
-                                                    <a href={data.link}>{data.title}</a>
-                                                </li>
-                                            )
-                                        })
-                                    }
+                                    {FooterLinks.slice(0, 3).map((data) => (
+                                        <li key={data.title} className="cursor-pointer hover:text-primary duration-300">
+                                            <span className="mr-2">&#11162;</span>
+                                            <a href={data.link}>{data.title}</a>
+                                        </li>
+                                    ))}
                                 </ul>
                             </div>
                         </div>
                         {/* Second col  */}
                         <div>
                             <div className="py-8 px-4">
-                                <h1 className="text-xl font-bold sm:text-left text-justify mb-3">Quick Links</h1>
+                                <h1 className="text-xl font-bold sm:text-left text-justify mb-3">Resources</h1>
                                 <ul className="flex flex-col gap-3">
-                                    {
-                                        FooterLinks.map((data) => {
-                                            return (
-                                                <li key={data.title} className="cursor-pointer hover:text-primary duration-300">
-                                                    <span className="mr-2">&#11162;</span>
-                                                    <a href={data.link}>{data.title}</a>
-                                                </li>
-                                            )
-                                        })
-                                    }
+                                    {FooterLinks.slice(3, 6).map((data) => (
+                                        <li key={data.title} className="cursor-pointer hover:text-primary duration-300">
+                                            <span className="mr-2">&#11162;</span>
+                                            <a href={data.link}>{data.title}</a>
+                                        </li>
+                                    ))}
                                 </ul>
                             </div>
                         </div>
                         {/* Third col  */}
                         <div>
                             <div className="py-8 px-4">
-                                <h1 className="text-xl font-bold sm:text-left text-justify mb-3">Resources</h1>
+                                <h1 className="text-xl font-bold sm:text-left text-justify mb-3">Company</h1>
                                 <ul className="flex flex-col gap-3">
-                                    {
-                                        FooterLinks.map((data) => {
-                                            return (
-                                                <li key={data.title} className="cursor-pointer hover:text-primary duration-300">
-                                                    <span className="mr-2">&#11162;</span>
-                                                    <a href={data.link}>{data.title}</a>
-                                                </li>
-                                            )
-                                        })
-                                    }
+                                    {FooterLinks.slice(6).map((data) => (
+                                        <li key={data.title} className="cursor-pointer hover:text-primary duration-300">
+                                            <span className="mr-2">&#11162;</span>
+                                            <a href={data.link}>{data.title}</a>
+                                        </li>
+                                    ))}
                                 </ul>
                             </div>
                         </div>
@@ -131,7 +119,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Footer
+export default Footer;
