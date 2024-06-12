@@ -20,7 +20,7 @@ const skillsData = [
             <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
         ),
         link: "#",
-        description: " Experience quick and secure car rentals with our streamlined process and top-notch safety measures.",
+        description: " Experience quick and secure rental cars with our streamlined process and top-notch safety measures.",
         aosDisplay: "500",
     },
     {
@@ -50,7 +50,7 @@ const Services = () => {
                                 <div className="grid place-items-center">{skill.icon}</div>
                                 <h1>{skill.name}</h1>
                                 <p>{skill.description}</p>
-                                <a href={skill.link}>Learn More</a>
+                                {/* <a href={skill.link}>Learn More</a> */}
                             </div>
                         ))
                     }
