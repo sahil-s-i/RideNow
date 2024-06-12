@@ -37,7 +37,7 @@ const Navbar = ({ theme, setTheme }) => {
       <div className="container py-2 md:py-0">
         <div className="flex justify-between items-center">
           <div>
-            <h1 className="text-3xl font-bold font-serif">Car Rental</h1>
+            <h1 className="text-3xl font-bold font-serif">RideNow</h1>
           </div>
           <div className="hidden md:block">
             <ul className="flex items-center gap-8">
