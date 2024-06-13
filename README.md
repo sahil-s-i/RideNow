@@ -44,3 +44,23 @@ The technologies and tools used in this project include:
 - JavaScript (ES6+)
 - npm/Yarn
 
+
+## Contributing 
+
+Contributions are welcome! Follow these steps to contribute to the project:
+
+1. Fork the repository.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3. Make your changes and commit them:
+    ```bash
+    git commit -m 'Add your feature'
+    ```
+4. Push to the branch:
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+5. Submit a pull request.
+
