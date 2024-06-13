@@ -22,3 +22,15 @@ To install and run this project locally, follow these steps:
     npm install
     ```
 
+## Usage 
+
+To use this project, follow these steps:
+
+1. After installing dependencies, start the development server:
+    ```bash
+    npm start
+    ```
+
+2. Open your web browser and navigate to `http://localhost:3000` to view the application.
+
+
