@@ -33,4 +33,14 @@ To use this project, follow these steps:
 
 2. Open your web browser and navigate to `http://localhost:3000` to view the application.
 
+## Tech Stack 
+
+The technologies and tools used in this project include:
+
+- React
+- Tailwind CSS
+- React Icons
+- HTML/CSS
+- JavaScript (ES6+)
+- npm/Yarn
 
