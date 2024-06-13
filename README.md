@@ -2,3 +2,23 @@
 
 **RideNow** is a premium car rental service offering a seamless and convenient experience for all your transportation needs. Whether you're planning a weekend getaway, a business trip, or a family vacation, RideNow has the perfect vehicle to suit your needs. This project is built using React, Tailwind CSS, and several supporting libraries, making it a modern, responsive, and highly customizable web application.
 - This project provides a user-friendly interface for browsing and renting cars. It includes sections such as navigation, car listings, testimonials, a call-to-action section, and a footer with important links and contact information. With its easy-to-use interface and customizable components, this application serves as a versatile tool for individuals and businesses to offer car rental services online.
+
+## Installation 
+
+To install and run this project locally, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/sahil-s-i/ridenow.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd ridenow
+    ```
+
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
