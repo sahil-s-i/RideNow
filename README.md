@@ -44,10 +44,6 @@ The technologies and tools used in this project include:
 - JavaScript (ES6+)
 - npm/Yarn
 
-
-
-
-
 ## Contributing 
 
 Contributions are welcome! Follow these steps to contribute to the project:
