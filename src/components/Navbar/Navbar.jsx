@@ -28,7 +28,6 @@ export const NavLinks = [
 
 const Navbar = ({ theme, setTheme }) => {
   const [showMenu, setShowMenu] = useState(false);
-
   const togglemenu = () => {
     setShowMenu(!showMenu);
   }
